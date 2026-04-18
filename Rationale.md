@@ -46,20 +46,46 @@ Each trial presents the following sequence:
 
 2. **Color cue** — The screen color changes to signal the valence of the upcoming
    image:
-   - **Yellow** → A negative image is coming (certain threat anticipation)
-   - **Blue** → A positive image is coming (certain reward anticipation)
-   - **Green** → Either a positive or negative image may appear (uncertain
+   - **Green** → A positive image is coming (certain reward anticipation)
+   - **Red** → A negative image is coming (certain threat anticipation)
+   - **Yellow** → Either a positive or negative image may appear (uncertain
      anticipation)
 
-3. **Anticipation period** — 6 seconds of sustained anticipation following the
-   color cue, regardless of condition.
+3. **Anticipation period** — Sustained anticipation following the color cue,
+   during which the SPN ERP component builds.
 
 4. **Image presentation** — A positive or negative image from the International
-   Affective Picture System (IAPS), presented for 2 seconds.
+   Affective Picture System (IAPS).
 
-Each anticipation condition (certain threat, certain reward, uncertain) is tested
+5. **Response window** — Participant rating or response, which may overlap with
+   image presentation.
+
+6. **Inter-trial interval (ITI)** — Jittered blank period before the next trial.
+
+Each anticipation condition (certain reward, certain threat, uncertain) is tested
 9 times in pseudorandom order across approximately 90 trials. Total time on task
 is approximately 15 minutes.
+
+### Recommended Timing Parameters
+
+The following timing parameters were derived from a review of the EAT literature
+and validated for use in the MaM study context. All durations are in milliseconds.
+
+| Event Phase | Duration (ms) | Notes |
+|-------------|--------------|-------|
+| Fixation Cross | 500–1000 | Baseline period; jittered recommended |
+| Directional Cue (Arrow) | 500–1000 | Central presentation; sufficient for spatial orienting |
+| Inter-Stimulus Interval 1 | 200–500 | Brief blank or fixation between cues |
+| Valence Cue (Color) | 1000–2000 | Key anticipation period; allows expectancy to build |
+| Anticipation Period | 2000–4000 | Optional additional delay; can be jittered for fMRI |
+| Target Image | 2000–3000 | Emotional stimulus presentation |
+| Response Window | 2000–3000 | If collecting ratings; can overlap with image |
+| Inter-Trial Interval (ITI) | 2000–4000 | Jittered; longer for fMRI (4–8s) |
+
+These timing parameters are configurable in the task via the deck conditions CSV
+files. The anticipation period duration is particularly critical for reliable SPN
+measurement — periods shorter than 2000 ms may not allow the full SPN waveform
+to develop.
 
 ---
 
