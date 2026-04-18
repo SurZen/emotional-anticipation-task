@@ -1,0 +1,24 @@
+== EAT_1 ==
+N_pos=49, N_neg=41, floor_pos=6, floor_neg=4
+Positive: Cute_Animals:8, Food_Drinks:1, Landscapes_Nature:12, Objects_Positive:4, People_Children:10, Positive_People:7, Recreation_Sports:7
+Negative: Dead_Animals:7, Dead_People:5, Injury_Wounds_Blood:8, Negative_Circumstances:8, Negative_Objects:5, Sad_Negative_Facial_Expressions:3, Threatening_Animals:4, Violence_Weapons:1
+
+== EAT_2 ==
+N_pos=46, N_neg=44, floor_pos=5, floor_neg=4
+Positive: Cute_Animals:7, Food_Drinks:1, Landscapes_Nature:12, Objects_Positive:4, People_Children:9, Positive_People:6, Recreation_Sports:7
+Negative: Dead_Animals:7, Dead_People:5, Injury_Wounds_Blood:9, Negative_Circumstances:9, Negative_Objects:5, Sad_Negative_Facial_Expressions:4, Threatening_Animals:4, Violence_Weapons:1
+
+== EAT_3 ==
+N_pos=50, N_neg=40, floor_pos=6, floor_neg=4
+Positive: Cute_Animals:7, Food_Drinks:1, Landscapes_Nature:13, Objects_Positive:5, People_Children:10, Positive_People:7, Recreation_Sports:7
+Negative: Dead_Animals:7, Dead_People:4, Injury_Wounds_Blood:7, Negative_Circumstances:8, Negative_Objects:5, Sad_Negative_Facial_Expressions:4, Threatening_Animals:4, Violence_Weapons:1
+
+== EAT_4 ==
+N_pos=45, N_neg=45, floor_pos=5, floor_neg=4
+Positive: Cute_Animals:7, Food_Drinks:1, Landscapes_Nature:12, Objects_Positive:4, People_Children:9, Positive_People:6, Recreation_Sports:6
+Negative: Dead_Animals:7, Dead_People:5, Injury_Wounds_Blood:9, Negative_Circumstances:9, Negative_Objects:6, Sad_Negative_Facial_Expressions:4, Threatening_Animals:4, Violence_Weapons:1
+
+== EAT_5 ==
+N_pos=44, N_neg=46, floor_pos=5, floor_neg=4
+Positive: Cute_Animals:5, Food_Drinks:2, Landscapes_Nature:8, Objects_Positive:3, People_Children:7, Positive_People:5, Recreation_Sports:5
+Negative: Dead_Animals:8, Dead_People:6, Injury_Wounds_Blood:9, Negative_Circumstances:9, Negative_Objects:5, Sad_Negative_Facial_Expressions:4, Threatening_Animals:4, Violence_Weapons:1

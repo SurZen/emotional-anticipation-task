@@ -1,0 +1,18 @@
+fullscreen: true
+screen_color: [0, 0, 0]
+text_color: [1, 1, 1]
+arrow_keys:
+  left: "left"
+  right: "right"
+timing_ranges_sec:
+  fix_dur: [0.5, 1.0]
+  arrow_dur: [0.5, 1.0]
+  isi1_dur: [4.0, 4.0]
+  cue_dur: [1.0, 2.0]
+  anticip_dur: [2.0, 4.0]
+  image_dur: [2.0, 3.0]
+  iti_dur: [4.0, 4.0]
+
+seed:
+  mode: "per_deck"
+  value: 20251229

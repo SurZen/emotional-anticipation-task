@@ -1,0 +1,3 @@
+eeg_triggers:
+  enabled: false
+  backend: "none"
